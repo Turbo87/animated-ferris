@@ -53,3 +53,7 @@ uv run export_icon.py dist/tgs dist/pack-icon.png
 ## Publish on Telegram
 
 Open [@Stickers](https://t.me/Stickers), send `/newanimated` and upload each numbered `.tgs` file from `dist/tgs/` with its emoji from the table above. Send `/publish` when the set is complete.
+
+## License
+
+Like the original Ferris artwork, this project is dedicated to the public domain under [CC0 1.0](LICENSE).
