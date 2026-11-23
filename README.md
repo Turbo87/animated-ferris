@@ -1,6 +1,6 @@
 # Animated Ferris
 
-Everyday Ferris is a pack of twenty wordless animated Telegram stickers featuring Ferris the crab. This repository contains the vector sources and the scripts that build the Telegram stickers, Slack GIFs, videos and the pack icon.
+Animated Ferris is a pack of twenty wordless animated Telegram stickers featuring Ferris the crab. This repository contains the vector sources and the scripts that build the Telegram stickers, Slack GIFs, videos and the pack icon.
 
 | | Sticker | Emoji |
 |---|---|---|

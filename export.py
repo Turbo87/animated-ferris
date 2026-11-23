@@ -1,7 +1,7 @@
 """Export transparent looping GIFs from a Telegram sticker ZIP or a directory of .tgs files.
 
 Install Pillow and rlottie-python, then run:
-    python export.py everyday-ferris.zip output
+    python export.py animated-ferris.zip output
     python export.py tgs/ output
 
 emoji/ contains 128 px, 15 fps GIFs for Slack custom emoji.
