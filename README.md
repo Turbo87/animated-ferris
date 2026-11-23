@@ -1,6 +1,6 @@
 # Animated Ferris
 
-Animated Ferris is a pack of twenty wordless animated Telegram stickers featuring Ferris the crab. This repository contains the vector sources and the scripts that build the Telegram stickers, Slack GIFs, videos and the pack icon.
+Animated Ferris is a pack of twenty wordless animated Telegram stickers featuring Ferris the crab. This repository contains the vector sources and the scripts that build the Telegram stickers, Slack GIFs, videos and the pack icon. [Add the stickers to Telegram](https://t.me/addstickers/ferris_rs)
 
 | | Sticker | Emoji |
 |---|---|---|
@@ -49,10 +49,6 @@ uv run export_icon.py dist/tgs dist/pack-icon.png
 `export_videos.py` needs FFmpeg and ffprobe with the libvpx-vp9 and libx264 encoders. It writes transparent VP9 video to `webm/` and H.264 video on a warm off-white background to `mp4/`. Use `--only popcorn` to render a single sticker.
 
 `export_icon.py` renders a static waving Ferris as a 100 × 100 PNG for the pack icon.
-
-## Publish on Telegram
-
-Open [@Stickers](https://t.me/Stickers), send `/newanimated` and upload each numbered `.tgs` file from `dist/tgs/` with its emoji from the table above. Send `/publish` when the set is complete.
 
 ## License
 
